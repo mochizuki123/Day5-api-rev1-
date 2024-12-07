@@ -1,0 +1,42 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* 水平方向の中央に */
+    height: 100vh;
+        margin: 0;
+ }
+
+
+.button {
+    
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 400px;
+    height: 60px;
+    font-size: 20px;
+    margin: 40px;
+}
+
+.button:active {
+    -webkit-transform: translateY(4px);
+    transform: translateY(4px);
+    border-bottom: none;
+}
+
+
+.output {
+    /* display: flex; */
+    
+    flex-direction: column;
+    gap: 10px;
+    font-size: 20px;
+    line-height: 30px;
+    padding: 10px;
+    background-color: rgb(206, 238, 243);
+    width: 40%;
+    height: 25%;
+    margin-bottom: 40px;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1)
+
+}
